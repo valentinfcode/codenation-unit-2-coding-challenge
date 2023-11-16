@@ -1,7 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background: black;
     text-align: center;
 }
 
 /* Apply CSS styles to three of your HTML elements to make the page visually appealing. */
+.about-me{display: flex;
+         justify-content: center;}
+.school{justify-content:flex-start;
+        background-color: yellow;
+        padding:5px;
+        margin:10px;
+        border-style: solid;
+        border-color: red;
+        border-width: 3px;}
+.hobbies{justify-content:flex-end;
+         background-color: orange;
+         padding:5px;
+         margin:10px;
+         border-style: dashed;
+         border-color: blue;
+         border-width: 3px;}
+h1{color:lightgreen;}
+h2{color:red;}
+p{color:green}
